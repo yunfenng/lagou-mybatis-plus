@@ -1,0 +1,3 @@
+# Project exclude paths
+/lagou-mybatis-plus-simple/target/
+/lagou-mybatis-plus-spring/target/

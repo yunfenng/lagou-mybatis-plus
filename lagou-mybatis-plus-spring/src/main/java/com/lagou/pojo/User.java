@@ -1,0 +1,19 @@
+package com.lagou.pojo;
+
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor // 生成无参构造
+@AllArgsConstructor // 生成全参构造
+@TableName("user")
+public class User {
+
+    private Long id;
+    private String name;
+    private Integer age;
+    private String email;
+
+}
